@@ -1,3 +1,5 @@
+// create inv & create a new array of just titles
+//bookStore.inventory.map((el) => {return el.title})
 const bookStore = {
   location: "Seattle",
   address:'333 st ne Seattle wa 99999',
@@ -13,11 +15,11 @@ const bookStore = {
       reviews: [{userID: 1, content:'Good book, but not great for new coders'}],
       inventory: 10,
       imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/51IKycqTPUL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg'
-    },
+    }, // get image value book bookStore.inv[0].imageUrl
     {
       id: 2,
       title: 'JavaScript & JQuery: Interactive Front-End Web Development',
-      author: 'Jon Duckett',
+      author: 'Jon Duckett', // get this value bookStore.inv[1].imageUrl
       price: 45.75,
       reviews: [{userID: 15, content:'good way to learn JQuery'}],
       inventory: 2,
